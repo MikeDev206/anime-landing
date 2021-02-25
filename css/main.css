@@ -1,0 +1,111 @@
+/* custom properties */
+:root {
+    --black-ninja: #222222;
+    --red-ninja: #CA2128;
+    --tuquoise-ninja: #42CBAA;
+    --orange-ninja: #F66C45;
+    --gray-ninja: #ADBBC9;
+    --pink-ninja: #FD8C8D;
+    --blue-ninja: #1492E6;
+    --contrast-text: #4D4D4D;
+    --contrast-item: #808080;
+    --background-card: #FBFBFB;
+    --background-input: #808080;
+    --size-title: 50px;
+    --size-title-mobile: 25px;
+    --size-subtitle: 30px;
+    --size-subtitle-mobile: 18px;
+    --items-nav-footer: 16px;
+    --caption: 10px;
+    --input-label-titles: 14px;
+    --cards-title: 36px;
+    --cards-caption: 10px;
+    --cards-body: 14px
+    --cards-feature-title: 12px; /*weight 600*/
+    --cards-feature-description: 12px; /* weight 400*/
+    --buttons: 16px;
+    --buttons-2: 16px; /*line-height 24px*/
+    --font-principal: "Poppins", sans-serif;
+    --font-secondary: "Orbitron", sans-serif;
+    --body: 20px;
+    --body-mobile: 16px;
+  }
+
+  /* global features */
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--font-principal);
+    font-size: var(--body-mobile);
+  }
+  
+  h1,
+  h2 {
+    font-size: var(--size-title-mobile);
+    font-family: var(--font-secondary);
+  }
+  
+  h5 {
+    font-size: var(--size-subtitle-mobile);
+  }
+  
+  button {
+    outline: none !important;
+  }
+
+  /* navbar section */
+
+  .navbar {
+      background-color: var(--black-ninja);
+      display: flex;
+      flex-direction: row-reverse;
+  }
+
+  .navbar-dark .navbar-toggler-icon {
+    background-image: url(../assets/icons/hamburger-v.svg);
+  }
+
+  .img-logo {
+      width: 89px;
+      height: 62px;
+  }
+  
+  .cart {
+      border: 1px solid #CA2128;
+      border-radius: 10px;
+  }
+
+  /* Media queries */
+@media only screen and (min-width: 768px) {
+    body {
+      font-size: var(--body);
+    }
+    h1,
+    h2 {
+      font-size: var(--size-title);
+    }
+    h5 {
+      font-size: var(--size-subtitle);
+    }
+
+    .cart {
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cart {
+        border: none;
+    }
+}

@@ -160,4 +160,8 @@ button {
     font-size: var(--size-title);
   }
 
+  .titulo {
+    padding-top: 25%;
+  }
+
 }

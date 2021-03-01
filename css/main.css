@@ -108,6 +108,29 @@ button {
   color: #ffffff;
 }
 
+/* cards section */
+
+.cards-section {
+  background: var(--red-ninja);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.wrapper-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  color: #ffffff;
+}
+
+.ninja-mart {
+  width: 6.625rem;
+  height: 6.199rem;
+}
+
 /* Media queries */
 @media only screen and (min-width: 768px) {
 
@@ -133,6 +156,22 @@ button {
 
   .hero h1 {
     font-size: var(--size-title-tablet);
+  }
+
+  /* cards-section */
+
+
+  .wrapper-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .wrapper-title h2 {
+    width: 99%;
+    font-size: var(--size-title);
+    text-align: left;
+    padding-right: 0;
   }
 
 }

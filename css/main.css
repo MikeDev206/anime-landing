@@ -116,19 +116,85 @@ button {
   padding-bottom: 2rem;
 }
 
+.card {
+  width: 16.75rem;
+  height: auto;
+  border: none;
+  border-radius: 20px;
+}
+
 .wrapper-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "Orbitron", sans-serif;
+  font-family: var(--font-secondary);
   color: #ffffff;
 }
 
 .ninja-mart {
   width: 6.625rem;
   height: 6.199rem;
+}
+
+.materials h5{
+  font-family: var(--font-principal)!important;
+  font-size: var(--cards-feature-title)!important;
+  color: #222222!important;
+}
+
+.materials p{
+  font-family: var(--font-principal)!important;
+  font-size: var(--cards-feature-description)!important;
+  color: #222222!important;
+}
+
+.card h5 {
+  font-family: var(--font-principal);
+  font-size: var(--cards-title);
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.funco-1 {
+  width: 5.875rem;
+  height: 8.983rem;
+}
+
+.funco-2 {
+  width: 6.094rem;
+  height: 7.239rem;
+}
+
+.funco-3 {
+  width: 6.115rem;
+  height: 7.041rem;
+}
+
+.funco-4 {
+  width: 6.125rem;
+  height: 7.461rem;
+}
+
+.deku-bg {
+  background-color: #42cbaa;
+  padding: 3rem 5px 3rem 5px;
+}
+
+.mikasa-bg {
+  background-color: #adbbc9;
+  padding: 3rem 5px 3rem 5px;
+}
+
+.inuyasha-bg {
+  background-color: #f66c45;
+  padding: 3rem 5px 3rem 5px;
+}
+
+.sakura-bg {
+  background-color: #fd8c8d;
+  padding: 3rem 5px 3rem 5px;
 }
 
 /* Media queries */
